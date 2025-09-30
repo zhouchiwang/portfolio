@@ -264,12 +264,12 @@ body {
 .btn-primary {
     background: var(--gradient);
     color: white;
-    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
+    box-shadow: 0 10px 30px rgba(253, 223, 71, 0.5);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 15px 40px rgba(253, 224, 71, 0.731);
 }
 
 .btn-secondary {
