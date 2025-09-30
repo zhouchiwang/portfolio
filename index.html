@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页 - 欢迎来到我的世界</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 自定义光标 -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+    
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">首页</a></li>
+                <li><a href="#about" class="nav-link">关于</a></li>
+                <li><a href="#skills" class="nav-link">技能</a></li>
+                <li><a href="#projects" class="nav-link">项目</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    你好，我是 
+                    <span class="gradient-text">王洲驰</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="typed-text"></span>
+                    <span class="cursor">|</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">查看作品</a>
+                    <a href="mailto:wangzhouchi597@outlook.com" class="btn btn-secondary">发邮件</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/zhouchiwang" target="_blank" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:wangzhouchi597@outlook.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/601172373378" target="_blank" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/wangzhouchi" target="_blank" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://space.bilibili.com/299591601" target="_blank" class="social-icon" title="Bilibili"><i class="fas fa-tv"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="blob blob-1"></div>
+                    <div class="blob blob-2"></div>
+                    <img src="avatar.jpg" alt="王洲驰" class="profile-image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-image">
+                <div class="about-img-wrapper">
+                    <img src="avatar.jpg" alt="关于我" class="about-image">
+                </div>
+                </div>
+                <div class="about-text">
+                    <h3>你好！很高兴认识你</h3>
+                    <p>我是王洲驰（Zhouchi Wang），目前就读于 Monash University 计算机科学专业。我是一名充满热情的全栈开发者和 AI 工程师，专注于创建创新的解决方案。</p>
+                    <p>我热爱探索前沿技术，从机器学习到全栈开发，始终追求技术创新与实用价值的完美结合。</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>学校: Monash University</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>地点: Kuala Lumpur / 浙江温州</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>wangzhouchi597@outlook.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+60 01172373378 / +86 17377733597</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">技能专长</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> 前端开发</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>HTML5/CSS3</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>JavaScript (ES6+)</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Canvas & WebGL</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI & 后端开发</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Python & PyTorch</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>78%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Node.js & Express</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Haskell</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>MySQL & SQLite</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> 工具 & 框架</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Gradio</span>
+                        <span class="skill-tag">Socket.IO</span>
+                        <span class="skill-tag">Electron</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Stable Diffusion</span>
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Marie</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">精选项目</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/zhouchiwang/MoodMirror-AI" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>MoodMirror - AI情感识别系统</h3>
+                        <p>基于深度学习的AI情感识别和陪伴系统，使用PyTorch训练ResNet18模型，验证准确率65.67%，集成阿里云大模型API提供智能陪伴。</p>
+                        <div class="project-tags">
+                            <span>PyTorch</span>
+                            <span>Gradio</span>
+                            <span>Flask</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/zhouchiwang/floating-light-ball-game" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Glitch Ball - 实时对战游戏</h3>
+                        <p>基于HTML5 Canvas的实时在线对战游戏，支持单人和多人模式。使用Socket.IO实现实时同步，JWT认证和MySQL数据持久化。</p>
+                        <div class="project-tags">
+                            <span>Canvas</span>
+                            <span>Node.js</span>
+                            <span>Socket.IO</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/zhouchiwang/chatstable" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ChatStable - AI角色扮演平台</h3>
+                        <p>集成大语言模型与Stable Diffusion的实时角色扮演平台。支持多API配置、智能提示工程和角色一致性管理系统。</p>
+                        <div class="project-tags">
+                            <span>Streamlit</span>
+                            <span>SD WebUI</span>
+                            <span>OpenAI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/zhouchiwang/dairytaleweb" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>DIARYTALE - 个人日记应用</h3>
+                        <p>全功能个人日记Web应用，支持富文本编辑、心情追踪和图片上传。使用Node.js和Express构建RESTful API，实现用户认证、自动草稿保存和成就系统。</p>
+                        <div class="project-tags">
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/zhouchiwang/Transparent-browser" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Transparent Browser - 桌面浏览器</h3>
+                        <p>基于Electron框架的创新macOS桌面浏览器。支持窗口透明度调节、密码保护收藏夹、视频速度控制和自定义主页快捷方式。</p>
+                        <div class="project-tags">
+                            <span>Electron</span>
+                            <span>JavaScript</span>
+                            <span>HTML5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/zhouchiwang/dataanalysisplatform" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Intelli-Platform - AI数据分析平台</h3>
+                        <p>AI驱动的数据分析平台，提供智能对话、文档问答和自动化分析报告。集成阿里云大模型API，基于pandas开发智能数据治理工具。</p>
+                        <div class="project-tags">
+                            <span>Flask</span>
+                            <span>Pandas</span>
+                            <span>AI API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Zhouchi Wang. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/zhouchiwang" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:wangzhouchi597@outlook.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/601172373378" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/wangzhouchi" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://space.bilibili.com/299591601" target="_blank" title="Bilibili"><i class="fas fa-tv"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
